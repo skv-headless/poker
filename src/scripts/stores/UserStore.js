@@ -6,6 +6,7 @@ var users = ChatApi.getUsers().list();
 
 var UserConstants = require('../constants/UserConstants');
 var Moment = require('moment');
+window.moment = Moment();
 
 var UserStore = new Store({
 
