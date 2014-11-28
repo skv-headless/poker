@@ -12,7 +12,8 @@
   "dependencies": {
     "react-router": "latest",
     "react": "latest",
-    "react-bootstrap": "latest"
+    "react-bootstrap": "latest",
+    "moment": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

@@ -5,13 +5,21 @@
 'use strict';
 
 var React = require('react/addons');
+var Moment = require('moment');
 
 var Message = React.createClass({
 
   render: function () {
     return (
-      <p> {this.props.message.text}
+      <div>
+      <p>
+      {this.props.message.user}:
       </p>
+      <p>
+      {this.props.message.date}
+      {this.props.message.text}
+      </p>
+      </div>
     );
   }
 });
