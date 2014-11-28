@@ -16,7 +16,9 @@ var Message = React.createClass({
       {this.props.message.user}:
       </p>
       <p>
-      {this.props.message.date}
+      {this.props.message.time}
+      </p>
+      <p>
       {this.props.message.text}
       </p>
       </div>
