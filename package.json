@@ -13,7 +13,8 @@
     "react-router": "latest",
     "react": "latest",
     "react-bootstrap": "latest",
-    "moment": "latest"
+    "moment": "latest",
+    "lodash": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

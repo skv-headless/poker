@@ -1,0 +1,6 @@
+'use strict';
+
+module.exports = {
+  ADD_MESSAGE_START: "ADD_MESSAGE_START",
+  ADD_MESSAGE_SUCCESS: "ADD_MESSAGE_SUCCESS"
+};
